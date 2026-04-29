@@ -1,8 +1,8 @@
 <div align="center">
-  <img src="./assets/blockc_dieting_banner.png" alt="BlockC Dieting Interface" width="100%" />
+  <img src="./assets/jafsoon_dieting_banner.png" alt="Jafsoon Dieting Interface" width="100%" />
   <br />
   <br />
-  <h1>BlockC</h1>
+  <h1>Jafsoon</h1>
   <p><strong>Your Ultimate Personalized Dieting and Nutrition Platform</strong></p>
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
@@ -13,9 +13,9 @@
 
 ## 🥗 Overview
 
-**BlockC** is a modern, comprehensive dieting and health tracking application designed to help users achieve their wellness goals. Featuring personalized meal plans, detailed macro tracking, and an intuitive dashboard, BlockC makes healthy living accessible and engaging.
+**Jafsoon** is a modern, comprehensive dieting and health tracking application designed to help users achieve their wellness goals. Featuring personalized meal plans, detailed macro tracking, and an intuitive dashboard, Jafsoon makes healthy living accessible and engaging.
 
-Whether your goal is weight loss, muscle gain, or simply maintaining a balanced lifestyle, BlockC provides the tools and insights you need to succeed.
+Whether your goal is weight loss, muscle gain, or simply maintaining a balanced lifestyle, Jafsoon provides the tools and insights you need to succeed.
 
 ---
 
@@ -31,7 +31,7 @@ Whether your goal is weight loss, muscle gain, or simply maintaining a balanced 
 
 ## 🛠️ Technology Stack
 
-BlockC is engineered using a modern, scalable full-stack ecosystem:
+Jafsoon is engineered using a modern, scalable full-stack ecosystem:
 
 ### Frontend
 - **Framework:** [React 18+](https://reactjs.org/) powered by [Vite](https://vitejs.dev/) for lightning-fast HMR and optimized builds.
@@ -61,12 +61,12 @@ Ensure you have the following installed on your local machine:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Jafsoon1000/blockc.git
+   git clone https://github.com/Jafsoon1000/jafsoon.git
    ```
 
 2. **Navigate to the project directory:**
    ```bash
-   cd blockc
+   cd jafsoon
    ```
 
 3. **Install dependencies:**
@@ -89,7 +89,7 @@ The application will be accessible at `http://localhost:5173` (or the port speci
 
 ## 🤝 Contributing
 
-We welcome contributions to make BlockC even better! If you'd like to help:
+We welcome contributions to make Jafsoon even better! If you'd like to help:
 
 1. Fork the repository.
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`).
