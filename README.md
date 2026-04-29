@@ -1,4 +1,7 @@
 <div align="center">
+  <img src="./assets/blockc_hero_banner.png" alt="BlockC Interface" width="100%" />
+  <br />
+  <br />
   <h1>BlockC</h1>
   <p><strong>A Next-Generation Block-Based Collaborative Editing Platform</strong></p>
   
