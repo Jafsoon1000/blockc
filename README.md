@@ -1,15 +1,15 @@
-# BlockC Dating Platform
+# BlockC Editing Platform
 
-Welcome to the **BlockC Dating Platform** repository! 
+Welcome to the **BlockC Editing Platform** repository! 
 
 ## Overview
-This project is an innovative online dating website designed to connect people in a safe, engaging, and user-friendly environment. Our mission is to provide meaningful connections through advanced matching algorithms and a seamless user experience.
+This project is an innovative online editing website designed to provide a seamless, block-based document creation and collaboration environment. Our mission is to empower users with robust editing tools and a flexible workspace for all their content needs.
 
 ## Features
 - **User Authentication:** Secure signup and login for all users.
-- **Profile Creation:** Customizable user profiles with photos, bios, and preferences.
-- **Advanced Matching Algorithm:** Find potential matches based on compatibility and location.
-- **Real-Time Messaging:** Chat with your matches instantly.
+- **Block-Based Editing:** Create and manage rich text, images, and embedded media using an intuitive block editor.
+- **Real-Time Collaboration:** Edit documents simultaneously with your team.
+- **Document Management:** Organize your files efficiently with folders and tags.
 - **Responsive Design:** A beautiful and dynamic UI optimized for both desktop and mobile devices.
 
 ## Tech Stack
