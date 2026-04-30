@@ -115,6 +115,15 @@
                 <p style="color: var(--text-muted); font-size: 14px; margin-bottom: 5px;">Your Maintenance Calories</p>
                 <div class="result-value" id="resultValue">2,000</div>
                 <p style="color: var(--text-muted); font-size: 12px; margin-top: 5px;">kcal / day</p>
+                
+                <div class="macro-breakdown" id="macroBreakdown" style="display: none; margin-top: 15px; border-top: 1px solid var(--border-color); padding-top: 15px;">
+                    <p style="color: var(--text-muted); font-size: 12px; margin-bottom: 10px;">Recommended Daily Macros</p>
+                    <div style="display: flex; justify-content: space-around; font-size: 14px;">
+                        <div><strong style="color: #38bdf8;">Carbs</strong><br><span id="carbsValue">0g</span></div>
+                        <div><strong style="color: #10b981;">Protein</strong><br><span id="proteinValue">0g</span></div>
+                        <div><strong style="color: #fbbf24;">Fat</strong><br><span id="fatValue">0g</span></div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -153,6 +162,17 @@
             const resultValue = document.getElementById('resultValue');
             
             resultValue.innerText = tdee.toLocaleString();
+
+            // Calculate standard macros (40% carbs, 30% protein, 30% fat)
+            const carbs = Math.round((tdee * 0.40) / 4);
+            const protein = Math.round((tdee * 0.30) / 4);
+            const fat = Math.round((tdee * 0.30) / 9);
+
+            document.getElementById('carbsValue').innerText = carbs + 'g';
+            document.getElementById('proteinValue').innerText = protein + 'g';
+            document.getElementById('fatValue').innerText = fat + 'g';
+            document.getElementById('macroBreakdown').style.display = 'block';
+
             resultBox.classList.add('active');
         }
     </script>
