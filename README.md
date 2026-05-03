@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/jafsoon_dieting_banner.png" alt="Jafsoon Dieting Interface" width="100%" />
+  <img src="./frontend/assets/jafsoon_dieting_banner.png" alt="Jafsoon Dieting Interface" width="100%" />
   <br />
   <br />
   <h1>Jafsoon</h1>
@@ -46,6 +46,11 @@ Jafsoon is engineered using a modern, scalable full-stack ecosystem:
 
 ---
 
+## 📂 Project Structure
+
+- `frontend/` - Contains the static files (HTML, CSS, assets) for the UI.
+- `backend/` - Contains the Node.js Express server to serve the frontend and handle API requests.
+
 ## 🚀 Getting Started
 
 Follow these instructions to set up the project locally for development and testing.
@@ -69,21 +74,23 @@ Ensure you have the following installed on your local machine:
    cd jafsoon
    ```
 
-3. **Install dependencies:**
+3. **Install backend dependencies:**
    ```bash
+   cd backend
    npm install
    ```
 
 4. **Environment Variables:**
-   Create a `.env` file in the root directory and configure your environment variables (e.g., Database URI, JWT Secrets, Firebase keys). *Refer to `.env.example` if available.*
+   Create a `.env` file in the `backend` directory and configure your environment variables (e.g., Database URI, JWT Secrets, Firebase keys). *Refer to `.env.example` if available.*
 
 ### Running the Development Server
 
-To start the frontend and backend development servers concurrently:
+To start the backend server, which also serves the frontend UI:
 ```bash
-npm run dev
+cd backend
+npm start
 ```
-The application will be accessible at `http://localhost:5173` (or the port specified by Vite).
+The application will be accessible at `http://localhost:3000`.
 
 ---
 
